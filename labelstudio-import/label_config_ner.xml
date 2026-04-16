@@ -1,0 +1,9 @@
+<View>
+  <Labels name="label" toName="text">
+    <Label value="DISEASE" background="#f8b4b4"/>
+    <Label value="SYMPTOM" background="#ffd59e"/>
+    <Label value="MEDICATION" background="#b7f0ad"/>
+    <Label value="ANATOMY" background="#a8d8ff"/>
+  </Labels>
+  <Text name="text" value="$text"/>
+</View>
