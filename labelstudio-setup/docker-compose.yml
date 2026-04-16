@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: labelstudio_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: labelstudio
+      POSTGRES_USER: labelstudio
+      POSTGRES_PASSWORD: labelstudio
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  labelstudio:
+    image: heartexlabs/label-studio:latest
+    container_name: labelstudio_app
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+    environment:
+      DJANGO_DB: default
+      POSTGRE_NAME: labelstudio
+      POSTGRE_USER: labelstudio
+      POSTGRE_PASSWORD: labelstudio
+      POSTGRE_HOST: postgres
+      POSTGRE_PORT: 5432
+    volumes:
+      - labelstudio_data:/label-studio/data
+
+volumes:
+  postgres_data:
+  labelstudio_data:
