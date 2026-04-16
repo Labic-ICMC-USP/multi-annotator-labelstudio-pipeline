@@ -1,0 +1,1837 @@
+{
+  "base_url": "http://127.0.0.1:8080",
+  "project_filter": null,
+  "n_projects": 54,
+  "projects": [
+    {
+      "project": {
+        "id": 54,
+        "title": "ner_saude__isabela.fernandes@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 53,
+        "title": "ner_juridico__isabela.fernandes@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 52,
+        "title": "ner_atendimento__isabela.fernandes@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 51,
+        "title": "ner_saude__henrique.pires@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 50,
+        "title": "ner_juridico__henrique.pires@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 49,
+        "title": "ner_atendimento__henrique.pires@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 48,
+        "title": "ner_saude__felipe.alves@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 47,
+        "title": "ner_juridico__felipe.alves@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 46,
+        "title": "ner_atendimento__felipe.alves@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 45,
+        "title": "ner_saude__elisa.mendes@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 4,
+        "total_annotations_number": 4
+      },
+      "tasks": [
+        {
+          "id": 1090,
+          "annotations": [
+            {
+              "id": 8,
+              "completed_by": 6,
+              "result": [
+                {
+                  "id": "LsBqROmz05",
+                  "type": "labels",
+                  "value": {
+                    "end": 165,
+                    "text": "eveu amoxicilina p",
+                    "start": 147,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "Nx0lohb83u",
+                  "type": "labels",
+                  "value": {
+                    "end": 72,
+                    "text": "com quadro de tontura",
+                    "start": 51,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "HbqX8HavVR",
+                  "type": "labels",
+                  "value": {
+                    "end": 138,
+                    "text": "coração",
+                    "start": 131,
+                    "labels": [
+                      "ANATOMY"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "gST72UitQ3",
+                  "type": "labels",
+                  "value": {
+                    "end": 116,
+                    "text": " suspeita de asma",
+                    "start": 99,
+                    "labels": [
+                      "DISEASE"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T13:27:07.733307Z",
+              "updated_at": "2026-03-20T13:27:07.733317Z",
+              "draft_created_at": "2026-03-20T13:26:43.780618Z",
+              "lead_time": 35.014,
+              "prediction": {},
+              "result_count": 4,
+              "unique_id": "0e9cc8f9-106a-438c-818a-39c20be7d16e",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 1090,
+              "project": 45,
+              "updated_by": 6,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 63 anos atendido no Clínica Vida Plena com quadro de tontura. A equipe médica registrou suspeita de asma após exame do coração e prescreveu amoxicilina para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0005",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "elisa.mendes@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:56.118900Z",
+          "updated_at": "2026-03-20T13:27:07.774790Z",
+          "allow_skip": true,
+          "inner_id": 2,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 45,
+          "updated_by": 6,
+          "comment_authors": []
+        },
+        {
+          "id": 1094,
+          "annotations": [
+            {
+              "id": 9,
+              "completed_by": 6,
+              "result": [
+                {
+                  "id": "865KjInVDq",
+                  "type": "labels",
+                  "value": {
+                    "end": 83,
+                    "text": " com quadro de tontura",
+                    "start": 61,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "9eQj8YY3-9",
+                  "type": "labels",
+                  "value": {
+                    "end": 172,
+                    "text": "u losartana",
+                    "start": 161,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "bYxRZavS3g",
+                  "type": "labels",
+                  "value": {
+                    "end": 129,
+                    "text": "dengue",
+                    "start": 123,
+                    "labels": [
+                      "DISEASE"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T15:58:50.769695Z",
+              "updated_at": "2026-03-20T15:58:50.769705Z",
+              "draft_created_at": "2026-03-20T15:58:41.112479Z",
+              "lead_time": 22.472,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "c8fd7a29-14db-4414-8e06-5b6fc3e9b26d",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 1094,
+              "project": 45,
+              "updated_by": 6,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 72 anos atendido no Hospital Municipal Santa Rita com quadro de tontura. A equipe médica registrou suspeita de dengue após exame do nariz e prescreveu losartana para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_02",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0017",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "elisa.mendes@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:56.119034Z",
+          "updated_at": "2026-03-20T15:58:50.802757Z",
+          "allow_skip": true,
+          "inner_id": 6,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 45,
+          "updated_by": 6,
+          "comment_authors": []
+        },
+        {
+          "id": 1098,
+          "annotations": [
+            {
+              "id": 10,
+              "completed_by": 6,
+              "result": [
+                {
+                  "id": "voUCpiB8Lo",
+                  "type": "labels",
+                  "value": {
+                    "end": 89,
+                    "text": "tosse persistente",
+                    "start": 72,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "NqppgxfTq4",
+                  "type": "labels",
+                  "value": {
+                    "end": 178,
+                    "text": "metformina",
+                    "start": 168,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "YKOgLfLy7W",
+                  "type": "labels",
+                  "value": {
+                    "end": 133,
+                    "text": "asma",
+                    "start": 129,
+                    "labels": [
+                      "DISEASE"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T15:59:20.213743Z",
+              "updated_at": "2026-03-20T15:59:20.213753Z",
+              "draft_created_at": "2026-03-20T15:59:17.714527Z",
+              "lead_time": 15.378,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "9b0168aa-8f72-4a18-8f23-1573024e9163",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 1098,
+              "project": 45,
+              "updated_by": 6,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 56 anos atendido no Hospital Regional do Vale com quadro de tosse persistente. A equipe médica registrou suspeita de asma após exame do fígado e prescreveu metformina para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_03",
+            "source": "hospital_b",
+            "external_id": "ner_saude_doc_0029",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "elisa.mendes@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:56.119162Z",
+          "updated_at": "2026-03-20T15:59:20.245736Z",
+          "allow_skip": true,
+          "inner_id": 10,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 45,
+          "updated_by": 6,
+          "comment_authors": []
+        },
+        {
+          "id": 1102,
+          "annotations": [
+            {
+              "id": 11,
+              "completed_by": 6,
+              "result": [
+                {
+                  "id": "eecYGMDXs2",
+                  "type": "labels",
+                  "value": {
+                    "end": 177,
+                    "text": "losartana",
+                    "start": 168,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "RfBk2UCont",
+                  "type": "labels",
+                  "value": {
+                    "end": 134,
+                    "text": "enxaqueca",
+                    "start": 125,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "-zG20_R0Cm",
+                  "type": "labels",
+                  "value": {
+                    "end": 85,
+                    "text": "quadro de dor abdominal",
+                    "start": 62,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T15:59:57.688398Z",
+              "updated_at": "2026-03-20T15:59:57.688407Z",
+              "draft_created_at": "2026-03-20T15:59:46.376104Z",
+              "lead_time": 23.354,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "3410c9a8-9680-4878-86f2-a066c032ab7f",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 1102,
+              "project": 45,
+              "updated_by": 6,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 72 anos atendido no Hospital Regional do Vale com quadro de dor abdominal. A equipe médica registrou suspeita de enxaqueca após exame do nariz e prescreveu losartana para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_04",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0041",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "elisa.mendes@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:56.119290Z",
+          "updated_at": "2026-03-20T15:59:57.720846Z",
+          "allow_skip": true,
+          "inner_id": 14,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 45,
+          "updated_by": 6,
+          "comment_authors": []
+        }
+      ]
+    },
+    {
+      "project": {
+        "id": 44,
+        "title": "ner_juridico__elisa.mendes@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 43,
+        "title": "ner_atendimento__elisa.mendes@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 42,
+        "title": "ner_saude__gabriela.sousa@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 41,
+        "title": "ner_juridico__gabriela.sousa@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 40,
+        "title": "ner_atendimento__gabriela.sousa@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 39,
+        "title": "ner_saude__daniel.lima@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 38,
+        "title": "ner_juridico__daniel.lima@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 37,
+        "title": "ner_atendimento__daniel.lima@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 36,
+        "title": "ner_saude__carla.rocha@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 35,
+        "title": "ner_juridico__carla.rocha@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 34,
+        "title": "ner_atendimento__carla.rocha@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 33,
+        "title": "ner_saude__bruno.costa@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 5,
+        "total_annotations_number": 5
+      },
+      "tasks": [
+        {
+          "id": 937,
+          "annotations": [
+            {
+              "id": 4,
+              "completed_by": 3,
+              "result": [
+                {
+                  "id": "uPJFYLe6oh",
+                  "type": "labels",
+                  "value": {
+                    "end": 73,
+                    "text": " Plena com quadro de tontura.",
+                    "start": 44,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "PAs8_FYrtH",
+                  "type": "labels",
+                  "value": {
+                    "end": 168,
+                    "text": "e prescreveu amoxicilina para",
+                    "start": 139,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "E97SsKF6BY",
+                  "type": "labels",
+                  "value": {
+                    "end": 138,
+                    "text": "exame do coração",
+                    "start": 122,
+                    "labels": [
+                      "ANATOMY"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T11:40:19.704362Z",
+              "updated_at": "2026-03-20T11:40:19.704371Z",
+              "draft_created_at": "2026-03-20T11:40:15.100749Z",
+              "lead_time": 14.692,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "3a0e6675-c33a-4a85-af54-faec7c58dd69",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 937,
+              "project": 33,
+              "updated_by": 3,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 63 anos atendido no Clínica Vida Plena com quadro de tontura. A equipe médica registrou suspeita de asma após exame do coração e prescreveu amoxicilina para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0005",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "bruno.costa@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:48.694040Z",
+          "updated_at": "2026-03-20T11:40:19.739052Z",
+          "allow_skip": true,
+          "inner_id": 1,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 33,
+          "updated_by": 3,
+          "comment_authors": []
+        },
+        {
+          "id": 938,
+          "annotations": [
+            {
+              "id": 5,
+              "completed_by": 3,
+              "result": [
+                {
+                  "id": "kY3TpQkTHa",
+                  "type": "labels",
+                  "value": {
+                    "end": 72,
+                    "text": "línica Vida Plena com quadro de tontura",
+                    "start": 33,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "PPBRKgUk4h",
+                  "type": "labels",
+                  "value": {
+                    "end": 167,
+                    "text": "rescreveu ibuprofeno para u",
+                    "start": 140,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "oHkB9sPCPB",
+                  "type": "labels",
+                  "value": {
+                    "end": 138,
+                    "text": "exame do nariz e",
+                    "start": 122,
+                    "labels": [
+                      "ANATOMY"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T11:40:32.173540Z",
+              "updated_at": "2026-03-20T11:40:32.173550Z",
+              "draft_created_at": null,
+              "lead_time": 11.47,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "1fa8ec02-3774-4cc8-99ea-9a7079513977",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 938,
+              "project": 33,
+              "updated_by": 3,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 34 anos atendido no Clínica Vida Plena com quadro de tontura. A equipe médica registrou suspeita de asma após exame do nariz e prescreveu ibuprofeno para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0008",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "bruno.costa@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:48.694094Z",
+          "updated_at": "2026-03-20T11:40:32.205834Z",
+          "allow_skip": true,
+          "inner_id": 2,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 33,
+          "updated_by": 3,
+          "comment_authors": []
+        },
+        {
+          "id": 939,
+          "annotations": [
+            {
+              "id": 6,
+              "completed_by": 3,
+              "result": [
+                {
+                  "id": "iPoF-vanql",
+                  "type": "labels",
+                  "value": {
+                    "end": 74,
+                    "text": "Vida Plena com quadro de febre alt",
+                    "start": 40,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "Atk0cDSVuG",
+                  "type": "labels",
+                  "value": {
+                    "end": 187,
+                    "text": "ômago e prescreveu dipirona para u",
+                    "start": 153,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "v7sYRYHco0",
+                  "type": "labels",
+                  "value": {
+                    "end": 136,
+                    "text": " hipertensão arterial ",
+                    "start": 114,
+                    "labels": [
+                      "ANATOMY"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T11:40:44.537341Z",
+              "updated_at": "2026-03-20T11:40:44.537351Z",
+              "draft_created_at": "2026-03-20T11:40:43.603856Z",
+              "lead_time": 11.327,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "6bcd2a42-9570-450e-a9fb-da765846ff1a",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 939,
+              "project": 33,
+              "updated_by": 3,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 27 anos atendido no Clínica Vida Plena com quadro de febre alta. A equipe médica registrou suspeita de hipertensão arterial após exame do estômago e prescreveu dipirona para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "hospital_b",
+            "external_id": "ner_saude_doc_0011",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "bruno.costa@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:48.694131Z",
+          "updated_at": "2026-03-20T11:40:44.569703Z",
+          "allow_skip": true,
+          "inner_id": 3,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 33,
+          "updated_by": 3,
+          "comment_authors": []
+        },
+        {
+          "id": 940,
+          "annotations": [
+            {
+              "id": 12,
+              "completed_by": 3,
+              "result": [
+                {
+                  "id": "uVFgVGd8Af",
+                  "type": "labels",
+                  "value": {
+                    "end": 172,
+                    "text": "losartana",
+                    "start": 163,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "Begv2mVZaq",
+                  "type": "labels",
+                  "value": {
+                    "end": 83,
+                    "text": "tontura",
+                    "start": 76,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "zdrEiAl917",
+                  "type": "labels",
+                  "value": {
+                    "end": 129,
+                    "text": "dengue",
+                    "start": 123,
+                    "labels": [
+                      "DISEASE"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T16:01:34.767185Z",
+              "updated_at": "2026-03-20T16:01:34.767196Z",
+              "draft_created_at": "2026-03-20T16:01:33.749126Z",
+              "lead_time": 12.947,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "c527fbf6-de2b-4613-b092-7db7756de305",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 940,
+              "project": 33,
+              "updated_by": 3,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 72 anos atendido no Hospital Municipal Santa Rita com quadro de tontura. A equipe médica registrou suspeita de dengue após exame do nariz e prescreveu losartana para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_02",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0017",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "bruno.costa@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:48.694165Z",
+          "updated_at": "2026-03-20T16:01:34.800565Z",
+          "allow_skip": true,
+          "inner_id": 4,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 33,
+          "updated_by": 3,
+          "comment_authors": []
+        },
+        {
+          "id": 943,
+          "annotations": [
+            {
+              "id": 13,
+              "completed_by": 3,
+              "result": [
+                {
+                  "id": "R2eRxgsjT2",
+                  "type": "labels",
+                  "value": {
+                    "end": 178,
+                    "text": "metformina",
+                    "start": 168,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "hlvdDopXRl",
+                  "type": "labels",
+                  "value": {
+                    "end": 89,
+                    "text": "persistente",
+                    "start": 78,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "oN9cKdsWtg",
+                  "type": "labels",
+                  "value": {
+                    "end": 77,
+                    "text": "tosse",
+                    "start": 72,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "xhdbYiOBzE",
+                  "type": "labels",
+                  "value": {
+                    "end": 133,
+                    "text": "asma",
+                    "start": 129,
+                    "labels": [
+                      "DISEASE"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T16:01:52.421814Z",
+              "updated_at": "2026-03-20T16:01:52.421823Z",
+              "draft_created_at": "2026-03-20T16:01:51.677474Z",
+              "lead_time": 12.399,
+              "prediction": {},
+              "result_count": 4,
+              "unique_id": "1cf4e11d-257d-457a-b544-fa434f90951b",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 943,
+              "project": 33,
+              "updated_by": 3,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 56 anos atendido no Hospital Regional do Vale com quadro de tosse persistente. A equipe médica registrou suspeita de asma após exame do fígado e prescreveu metformina para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_03",
+            "source": "hospital_b",
+            "external_id": "ner_saude_doc_0029",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "bruno.costa@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:48.694263Z",
+          "updated_at": "2026-03-20T16:01:52.454759Z",
+          "allow_skip": true,
+          "inner_id": 7,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 33,
+          "updated_by": 3,
+          "comment_authors": []
+        }
+      ]
+    },
+    {
+      "project": {
+        "id": 32,
+        "title": "ner_juridico__bruno.costa@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 31,
+        "title": "ner_atendimento__bruno.costa@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 30,
+        "title": "ner_saude__ana.silva@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 4,
+        "total_annotations_number": 4
+      },
+      "tasks": [
+        {
+          "id": 897,
+          "annotations": [
+            {
+              "id": 1,
+              "completed_by": 2,
+              "result": [
+                {
+                  "id": "NJSTesoRu0",
+                  "type": "labels",
+                  "value": {
+                    "end": 68,
+                    "text": "UPA Central com quadro de febre alta",
+                    "start": 32,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "4lUP18Uhti",
+                  "type": "labels",
+                  "value": {
+                    "end": 182,
+                    "text": " prescreveu ibuprofeno para uso por cinco dias.",
+                    "start": 135,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T11:38:16.179490Z",
+              "updated_at": "2026-03-20T11:38:16.179500Z",
+              "draft_created_at": "2026-03-20T11:38:14.460007Z",
+              "lead_time": 14.831,
+              "prediction": {},
+              "result_count": 2,
+              "unique_id": "ea2e9b22-5b87-43fa-94b7-1c2f876bf297",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 897,
+              "project": 30,
+              "updated_by": 2,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 34 anos atendido no UPA Central com quadro de febre alta. A equipe médica registrou suspeita de asma após exame do fígado e prescreveu ibuprofeno para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "hospital_a",
+            "external_id": "ner_saude_doc_0001",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "ana.silva@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:47.394987Z",
+          "updated_at": "2026-03-20T11:38:16.211079Z",
+          "allow_skip": true,
+          "inner_id": 1,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 30,
+          "updated_by": 2,
+          "comment_authors": []
+        },
+        {
+          "id": 898,
+          "annotations": [
+            {
+              "id": 2,
+              "completed_by": 2,
+              "result": [
+                {
+                  "id": "zpQ0X_RpNd",
+                  "type": "labels",
+                  "value": {
+                    "end": 65,
+                    "text": "Central com quadro de tontura",
+                    "start": 36,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T11:38:30.899316Z",
+              "updated_at": "2026-03-20T11:38:30.899327Z",
+              "draft_created_at": null,
+              "lead_time": 10.368,
+              "prediction": {},
+              "result_count": 1,
+              "unique_id": "fa808310-2a06-4101-b40a-07978deca840",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 898,
+              "project": 30,
+              "updated_by": 2,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 34 anos atendido no UPA Central com quadro de tontura. A equipe médica registrou suspeita de diabetes tipo 2 após exame do joelho direito e prescreveu dipirona para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0004",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "ana.silva@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:47.395040Z",
+          "updated_at": "2026-03-20T11:38:30.931170Z",
+          "allow_skip": true,
+          "inner_id": 2,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 30,
+          "updated_by": 2,
+          "comment_authors": []
+        },
+        {
+          "id": 900,
+          "annotations": [
+            {
+              "id": 3,
+              "completed_by": 2,
+              "result": [
+                {
+                  "id": "Cv0gV48HHq",
+                  "type": "labels",
+                  "value": {
+                    "end": 65,
+                    "text": " Central com quadro de tontura",
+                    "start": 35,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "fii_RZt6Xd",
+                  "type": "labels",
+                  "value": {
+                    "end": 175,
+                    "text": " prescreveu ibuprofeno para us",
+                    "start": 145,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "uaLCWtLaS5",
+                  "type": "labels",
+                  "value": {
+                    "end": 119,
+                    "text": "u suspeita de bronquite após",
+                    "start": 91,
+                    "labels": [
+                      "DISEASE"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "zP3yXpiamx",
+                  "type": "labels",
+                  "value": {
+                    "end": 144,
+                    "text": "exame do braço esquerdo ",
+                    "start": 120,
+                    "labels": [
+                      "ANATOMY"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T11:39:00.569403Z",
+              "updated_at": "2026-03-20T11:39:00.569413Z",
+              "draft_created_at": "2026-03-20T11:38:49.364223Z",
+              "lead_time": 24.898,
+              "prediction": {},
+              "result_count": 4,
+              "unique_id": "3e3a1953-ad56-4aa7-9bd0-095b532c14a6",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 900,
+              "project": 30,
+              "updated_by": 2,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 72 anos atendido no UPA Central com quadro de tontura. A equipe médica registrou suspeita de bronquite após exame do braço esquerdo e prescreveu ibuprofeno para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_01",
+            "source": "clinica_c",
+            "external_id": "ner_saude_doc_0010",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "ana.silva@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:47.395111Z",
+          "updated_at": "2026-03-20T11:39:00.602971Z",
+          "allow_skip": true,
+          "inner_id": 4,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 30,
+          "updated_by": 2,
+          "comment_authors": []
+        },
+        {
+          "id": 903,
+          "annotations": [
+            {
+              "id": 7,
+              "completed_by": 2,
+              "result": [
+                {
+                  "id": "bpCHeVRn3i",
+                  "type": "labels",
+                  "value": {
+                    "end": 83,
+                    "text": "m quadro de calafrios. ",
+                    "start": 60,
+                    "labels": [
+                      "SYMPTOM"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "E6a46h8-xb",
+                  "type": "labels",
+                  "value": {
+                    "end": 192,
+                    "text": "azitromicina",
+                    "start": 180,
+                    "labels": [
+                      "MEDICATION"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                },
+                {
+                  "id": "70wcGk19-X",
+                  "type": "labels",
+                  "value": {
+                    "end": 157,
+                    "text": "pulmão",
+                    "start": 151,
+                    "labels": [
+                      "ANATOMY"
+                    ]
+                  },
+                  "origin": "manual",
+                  "to_name": "text",
+                  "from_name": "label"
+                }
+              ],
+              "was_cancelled": false,
+              "ground_truth": false,
+              "created_at": "2026-03-20T12:19:06.379747Z",
+              "updated_at": "2026-03-20T12:19:06.379756Z",
+              "draft_created_at": "2026-03-20T12:19:01.309252Z",
+              "lead_time": 15.59,
+              "prediction": {},
+              "result_count": 3,
+              "unique_id": "7eef37ac-216a-4c09-bac8-fcd564a7c055",
+              "import_id": null,
+              "last_action": null,
+              "bulk_created": false,
+              "task": 903,
+              "project": 30,
+              "updated_by": 2,
+              "parent_prediction": null,
+              "parent_annotation": null,
+              "last_created_by": null
+            }
+          ],
+          "drafts": [],
+          "predictions": [],
+          "data": {
+            "text": "Paciente de 41 anos atendido no Hospital Regional do Vale com quadro de calafrios. A equipe médica registrou suspeita de diabetes tipo 2 após exame do pulmão esquerdo e prescreveu azitromicina para uso por cinco dias. O retorno foi agendado para revisão clínica em 72 horas.",
+            "batch": "batch_02",
+            "source": "upa_centro",
+            "external_id": "ner_saude_doc_0019",
+            "project_code": "ner_saude",
+            "project_title": "NER Saúde",
+            "assigned_annotator_email": "ana.silva@example.com"
+          },
+          "meta": {},
+          "created_at": "2026-03-20T11:32:47.395212Z",
+          "updated_at": "2026-03-20T12:19:06.412058Z",
+          "allow_skip": true,
+          "inner_id": 7,
+          "total_annotations": 1,
+          "cancelled_annotations": 0,
+          "total_predictions": 0,
+          "comment_count": 0,
+          "unresolved_comment_count": 0,
+          "last_comment_updated_at": null,
+          "project": 30,
+          "updated_by": 2,
+          "comment_authors": []
+        }
+      ]
+    },
+    {
+      "project": {
+        "id": 29,
+        "title": "ner_juridico__ana.silva@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 28,
+        "title": "ner_atendimento__ana.silva@example.com",
+        "task_number": 16,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 27,
+        "title": "ner_saude :: isabela.fernandes@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 26,
+        "title": "ner_juridico :: isabela.fernandes@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 25,
+        "title": "ner_atendimento :: isabela.fernandes@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 24,
+        "title": "ner_saude :: henrique.pires@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 23,
+        "title": "ner_juridico :: henrique.pires@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 22,
+        "title": "ner_atendimento :: henrique.pires@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 21,
+        "title": "ner_saude :: felipe.alves@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 20,
+        "title": "ner_juridico :: felipe.alves@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 19,
+        "title": "ner_atendimento :: felipe.alves@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 18,
+        "title": "ner_saude :: elisa.mendes@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 17,
+        "title": "ner_juridico :: elisa.mendes@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 16,
+        "title": "ner_atendimento :: elisa.mendes@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 15,
+        "title": "ner_saude :: gabriela.sousa@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 14,
+        "title": "ner_juridico :: gabriela.sousa@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 13,
+        "title": "ner_atendimento :: gabriela.sousa@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 12,
+        "title": "ner_saude :: daniel.lima@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 11,
+        "title": "ner_juridico :: daniel.lima@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 10,
+        "title": "ner_atendimento :: daniel.lima@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 9,
+        "title": "ner_saude :: carla.rocha@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 8,
+        "title": "ner_juridico :: carla.rocha@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 7,
+        "title": "ner_atendimento :: carla.rocha@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 6,
+        "title": "ner_saude :: bruno.costa@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 5,
+        "title": "ner_juridico :: bruno.costa@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 4,
+        "title": "ner_atendimento :: bruno.costa@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 3,
+        "title": "ner_saude :: ana.silva@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 2,
+        "title": "ner_juridico :: ana.silva@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    },
+    {
+      "project": {
+        "id": 1,
+        "title": "ner_atendimento :: ana.silva@example.com",
+        "task_number": 32,
+        "num_tasks_with_annotations": 0,
+        "total_annotations_number": 0
+      },
+      "tasks": []
+    }
+  ]
+}

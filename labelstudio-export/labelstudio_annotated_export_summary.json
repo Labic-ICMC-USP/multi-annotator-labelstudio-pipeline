@@ -1,0 +1,187 @@
+{
+  "n_projects": 30,
+  "n_total_tasks": 0,
+  "n_total_tasks_with_annotations": 0,
+  "projects": [
+    {
+      "project_id": 54,
+      "project_title": "ner_saude__isabela.fernandes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 53,
+      "project_title": "ner_juridico__isabela.fernandes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 52,
+      "project_title": "ner_atendimento__isabela.fernandes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 51,
+      "project_title": "ner_saude__henrique.pires@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 50,
+      "project_title": "ner_juridico__henrique.pires@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 49,
+      "project_title": "ner_atendimento__henrique.pires@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 48,
+      "project_title": "ner_saude__felipe.alves@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 47,
+      "project_title": "ner_juridico__felipe.alves@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 46,
+      "project_title": "ner_atendimento__felipe.alves@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 45,
+      "project_title": "ner_saude__elisa.mendes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 44,
+      "project_title": "ner_juridico__elisa.mendes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 43,
+      "project_title": "ner_atendimento__elisa.mendes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 42,
+      "project_title": "ner_saude__gabriela.sousa@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 41,
+      "project_title": "ner_juridico__gabriela.sousa@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 40,
+      "project_title": "ner_atendimento__gabriela.sousa@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 39,
+      "project_title": "ner_saude__daniel.lima@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 38,
+      "project_title": "ner_juridico__daniel.lima@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 37,
+      "project_title": "ner_atendimento__daniel.lima@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 36,
+      "project_title": "ner_saude__carla.rocha@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 35,
+      "project_title": "ner_juridico__carla.rocha@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 34,
+      "project_title": "ner_atendimento__carla.rocha@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 33,
+      "project_title": "ner_saude__bruno.costa@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 32,
+      "project_title": "ner_juridico__bruno.costa@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 31,
+      "project_title": "ner_atendimento__bruno.costa@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 30,
+      "project_title": "ner_saude__ana.silva@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 29,
+      "project_title": "ner_juridico__ana.silva@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 28,
+      "project_title": "ner_atendimento__ana.silva@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 27,
+      "project_title": "ner_saude :: isabela.fernandes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 26,
+      "project_title": "ner_juridico :: isabela.fernandes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    },
+    {
+      "project_id": 25,
+      "project_title": "ner_atendimento :: isabela.fernandes@example.com",
+      "n_tasks": 0,
+      "n_tasks_with_annotations": 0
+    }
+  ]
+}

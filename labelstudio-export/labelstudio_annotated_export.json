@@ -1,0 +1,3302 @@
+[
+  {
+    "project": {
+      "id": 54,
+      "title": "ner_saude__isabela.fernandes@example.com",
+      "raw": {
+        "id": 54,
+        "title": "ner_saude__isabela.fernandes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:33:04.124069Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 53,
+      "title": "ner_juridico__isabela.fernandes@example.com",
+      "raw": {
+        "id": 53,
+        "title": "ner_juridico__isabela.fernandes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:33:03.696775Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 52,
+      "title": "ner_atendimento__isabela.fernandes@example.com",
+      "raw": {
+        "id": 52,
+        "title": "ner_atendimento__isabela.fernandes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:33:03.267533Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 51,
+      "title": "ner_saude__henrique.pires@example.com",
+      "raw": {
+        "id": 51,
+        "title": "ner_saude__henrique.pires@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:58.554234Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 50,
+      "title": "ner_juridico__henrique.pires@example.com",
+      "raw": {
+        "id": 50,
+        "title": "ner_juridico__henrique.pires@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:58.117910Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 49,
+      "title": "ner_atendimento__henrique.pires@example.com",
+      "raw": {
+        "id": 49,
+        "title": "ner_atendimento__henrique.pires@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:57.693968Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 48,
+      "title": "ner_saude__felipe.alves@example.com",
+      "raw": {
+        "id": 48,
+        "title": "ner_saude__felipe.alves@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:57.261202Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 47,
+      "title": "ner_juridico__felipe.alves@example.com",
+      "raw": {
+        "id": 47,
+        "title": "ner_juridico__felipe.alves@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:56.834810Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 46,
+      "title": "ner_atendimento__felipe.alves@example.com",
+      "raw": {
+        "id": 46,
+        "title": "ner_atendimento__felipe.alves@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:56.415917Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 45,
+      "title": "ner_saude__elisa.mendes@example.com",
+      "raw": {
+        "id": 45,
+        "title": "ner_saude__elisa.mendes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:55.982694Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 44,
+      "title": "ner_juridico__elisa.mendes@example.com",
+      "raw": {
+        "id": 44,
+        "title": "ner_juridico__elisa.mendes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:55.551666Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 43,
+      "title": "ner_atendimento__elisa.mendes@example.com",
+      "raw": {
+        "id": 43,
+        "title": "ner_atendimento__elisa.mendes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:55.126175Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 42,
+      "title": "ner_saude__gabriela.sousa@example.com",
+      "raw": {
+        "id": 42,
+        "title": "ner_saude__gabriela.sousa@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:52.393373Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 41,
+      "title": "ner_juridico__gabriela.sousa@example.com",
+      "raw": {
+        "id": 41,
+        "title": "ner_juridico__gabriela.sousa@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:51.970166Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 40,
+      "title": "ner_atendimento__gabriela.sousa@example.com",
+      "raw": {
+        "id": 40,
+        "title": "ner_atendimento__gabriela.sousa@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:51.536766Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 39,
+      "title": "ner_saude__daniel.lima@example.com",
+      "raw": {
+        "id": 39,
+        "title": "ner_saude__daniel.lima@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:51.115884Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 38,
+      "title": "ner_juridico__daniel.lima@example.com",
+      "raw": {
+        "id": 38,
+        "title": "ner_juridico__daniel.lima@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:50.692236Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 37,
+      "title": "ner_atendimento__daniel.lima@example.com",
+      "raw": {
+        "id": 37,
+        "title": "ner_atendimento__daniel.lima@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:50.269287Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 36,
+      "title": "ner_saude__carla.rocha@example.com",
+      "raw": {
+        "id": 36,
+        "title": "ner_saude__carla.rocha@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:49.840334Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 35,
+      "title": "ner_juridico__carla.rocha@example.com",
+      "raw": {
+        "id": 35,
+        "title": "ner_juridico__carla.rocha@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:49.413230Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 34,
+      "title": "ner_atendimento__carla.rocha@example.com",
+      "raw": {
+        "id": 34,
+        "title": "ner_atendimento__carla.rocha@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:48.985585Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 33,
+      "title": "ner_saude__bruno.costa@example.com",
+      "raw": {
+        "id": 33,
+        "title": "ner_saude__bruno.costa@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:48.558745Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 3,
+        "task_number": 16,
+        "useful_annotation_number": 3,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 3,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 3,
+        "queue_total": 13,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 32,
+      "title": "ner_juridico__bruno.costa@example.com",
+      "raw": {
+        "id": 32,
+        "title": "ner_juridico__bruno.costa@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:48.130074Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 31,
+      "title": "ner_atendimento__bruno.costa@example.com",
+      "raw": {
+        "id": 31,
+        "title": "ner_atendimento__bruno.costa@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:47.692323Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 30,
+      "title": "ner_saude__ana.silva@example.com",
+      "raw": {
+        "id": 30,
+        "title": "ner_saude__ana.silva@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:47.257246Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 4,
+        "task_number": 16,
+        "useful_annotation_number": 4,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 4,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 4,
+        "queue_total": 12,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 29,
+      "title": "ner_juridico__ana.silva@example.com",
+      "raw": {
+        "id": 29,
+        "title": "ner_juridico__ana.silva@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:46.827341Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 28,
+      "title": "ner_atendimento__ana.silva@example.com",
+      "raw": {
+        "id": 28,
+        "title": "ner_atendimento__ana.silva@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:32:46.405044Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 16,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 16,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 27,
+      "title": "ner_saude :: isabela.fernandes@example.com",
+      "raw": {
+        "id": 27,
+        "title": "ner_saude :: isabela.fernandes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:12:30.884262Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 32,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 32,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 26,
+      "title": "ner_juridico :: isabela.fernandes@example.com",
+      "raw": {
+        "id": 26,
+        "title": "ner_juridico :: isabela.fernandes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:12:30.475310Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 32,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 32,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  },
+  {
+    "project": {
+      "id": 25,
+      "title": "ner_atendimento :: isabela.fernandes@example.com",
+      "raw": {
+        "id": 25,
+        "title": "ner_atendimento :: isabela.fernandes@example.com",
+        "description": "",
+        "label_config": "<View>\n  <Labels name=\"label\" toName=\"text\">\n    <Label value=\"DISEASE\" background=\"#f8b4b4\"/>\n    <Label value=\"SYMPTOM\" background=\"#ffd59e\"/>\n    <Label value=\"MEDICATION\" background=\"#b7f0ad\"/>\n    <Label value=\"ANATOMY\" background=\"#a8d8ff\"/>\n  </Labels>\n  <Text name=\"text\" value=\"$text\"/>\n</View>",
+        "expert_instruction": "",
+        "show_instruction": false,
+        "show_skip_button": true,
+        "enable_empty_annotation": true,
+        "show_annotation_history": false,
+        "organization": 1,
+        "color": "#FFFFFF",
+        "maximum_annotations": 1,
+        "is_published": false,
+        "model_version": "",
+        "is_draft": false,
+        "created_by": {
+          "id": 1,
+          "first_name": "",
+          "last_name": "",
+          "email": "ricardo.marcacini@usp.br",
+          "avatar": null
+        },
+        "created_at": "2026-03-20T11:12:30.072515Z",
+        "min_annotations_to_start_training": 0,
+        "start_training_on_annotation_update": false,
+        "show_collab_predictions": true,
+        "num_tasks_with_annotations": 0,
+        "task_number": 32,
+        "useful_annotation_number": 0,
+        "ground_truth_number": 0,
+        "skipped_annotations_number": 0,
+        "total_annotations_number": 0,
+        "total_predictions_number": 0,
+        "sampling": "Sequential sampling",
+        "show_ground_truth_first": false,
+        "annotator_evaluation_enabled": false,
+        "show_overlap_first": false,
+        "overlap_cohort_percentage": 100,
+        "task_data_login": null,
+        "task_data_password": null,
+        "control_weights": {
+          "label": {
+            "type": "Labels",
+            "labels": {
+              "ANATOMY": 1.0,
+              "DISEASE": 1.0,
+              "SYMPTOM": 1.0,
+              "MEDICATION": 1.0
+            },
+            "overall": 1.0
+          }
+        },
+        "parsed_label_config": {
+          "label": {
+            "type": "Labels",
+            "inputs": [
+              {
+                "type": "Text",
+                "value": "text",
+                "valueType": null
+              }
+            ],
+            "labels": [
+              "DISEASE",
+              "SYMPTOM",
+              "MEDICATION",
+              "ANATOMY"
+            ],
+            "to_name": [
+              "text"
+            ],
+            "labels_attrs": {
+              "ANATOMY": {
+                "value": "ANATOMY",
+                "background": "#a8d8ff"
+              },
+              "DISEASE": {
+                "value": "DISEASE",
+                "background": "#f8b4b4"
+              },
+              "SYMPTOM": {
+                "value": "SYMPTOM",
+                "background": "#ffd59e"
+              },
+              "MEDICATION": {
+                "value": "MEDICATION",
+                "background": "#b7f0ad"
+              }
+            }
+          }
+        },
+        "evaluate_predictions_automatically": false,
+        "config_has_control_tags": true,
+        "skip_queue": "REQUEUE_FOR_OTHERS",
+        "reveal_preannotations_interactively": false,
+        "pinned_at": null,
+        "finished_task_number": 0,
+        "queue_total": 32,
+        "queue_done": 0,
+        "config_suitable_for_bulk_annotation": false,
+        "state": null
+      }
+    },
+    "annotated_tasks": []
+  }
+]
